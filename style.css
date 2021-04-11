@@ -1,0 +1,20 @@
+body{
+background-image: radial-gradient(circle,blue,cornflowerblue,aqua);
+
+color:white;
+text-align:center;
+}
+
+#O{
+font-size: 30px;;
+}
+
+#d{
+width: 1080px;
+height: 30px;;
+
+background-image: radial-gradient(circle,blue,cornflowerblue,aqua);
+border-radius:10px;;
+
+font-size:20px;
+}

@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Face recognition</title>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <br>
+
+<label id="O">FACE RECOGNITION WEB APP</label>
+<br>
+<br>
+
+<b>Project Made To Identify;</b>
+<br><br>
+
+<label id="d"> Hemanya </label>
+<br>
+<br>
+<label id="d"> Avika </label>
+
+<h4>Webcam -</h4>
+
+<div id="camera"></div>
+<br><br>
+<div id="result"></div>
+<br><br>
+<input id="Capture_img" type="button" value="Capture Image" class="btn btn-success" onclick="snapshot()">
+<br><br>
+<input id="identify" type="button" value="Identify Family Member" class="btn btn-success" onclick="Identify()">
+<br><br>
+<p style="font-size: 22px;">Object : <span id="result_object"></span>  </p>
+<p style="font-size: 22px;">Accuracy : <span id="result_accuracy"></span> </p>
+<p></p>
+
+<script src="main.js"></script><script async src="https://drv.tw/inc/wd.js"></script>
+
+</body>
+
+</html>
